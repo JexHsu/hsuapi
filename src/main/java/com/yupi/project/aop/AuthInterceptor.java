@@ -24,7 +24,8 @@ import java.util.stream.Collectors;
 /**
  * 权限校验 AOP
  *
- * @author yupi
+ * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
+ * @from <a href="https://yupi.icu">编程导航知识星球</a>
  */
 @Aspect
 @Component
@@ -32,6 +33,8 @@ public class AuthInterceptor {
 
     @Resource
     private UserService userService;
+
+    // https://t.zsxq.com/0emozsIJh
 
     /**
      * 执行拦截

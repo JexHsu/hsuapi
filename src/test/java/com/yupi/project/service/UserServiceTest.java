@@ -10,7 +10,8 @@ import javax.annotation.Resource;
 /**
  * 用户服务测试
  *
- * @author yupi
+ * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
+ * @from <a href="https://yupi.icu">编程导航知识星球</a>
  */
 @SpringBootTest
 class UserServiceTest {
@@ -38,6 +39,8 @@ class UserServiceTest {
         boolean result = userService.removeById(1L);
         Assertions.assertTrue(result);
     }
+
+    // [加入我们](https://yupi.icu) 从 0 到 1 项目实战，经验拉满！10+ 原创项目手把手教程、7 日项目提升训练营、1000+ 项目经验笔记、60+ 编程经验分享直播
 
     @Test
     void testGetUser() {

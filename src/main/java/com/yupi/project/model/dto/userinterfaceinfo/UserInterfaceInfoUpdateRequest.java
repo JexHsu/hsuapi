@@ -1,5 +1,7 @@
 package com.yupi.project.model.dto.userinterfaceinfo;
 
+// [加入编程导航](https://www.code-nav.cn/) 入门捷径+交流答疑+项目实战+求职指导，帮你自学编程不走弯路
+
 import lombok.Data;
 
 import java.io.Serializable;
@@ -7,7 +9,8 @@ import java.io.Serializable;
 /**
  * 更新请求
  *
- * @TableName product
+ * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
+ * @from <a href="https://yupi.icu">编程导航知识星球</a>
  */
 @Data
 public class UserInterfaceInfoUpdateRequest implements Serializable {

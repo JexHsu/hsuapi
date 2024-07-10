@@ -7,7 +7,8 @@ import java.io.Serializable;
 /**
  * 创建请求
  *
- * @TableName product
+ * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
+ * @from <a href="https://yupi.icu">编程导航知识星球</a>
  */
 @Data
 public class PostAddRequest implements Serializable {
@@ -56,6 +57,8 @@ public class PostAddRequest implements Serializable {
      * 照片地址
      */
     private String photo;
+
+    // [加入编程导航](https://t.zsxq.com/0emozsIJh) 入门捷径+交流答疑+项目实战+求职指导，帮你自学编程不走弯路
 
     private static final long serialVersionUID = 1L;
 }
